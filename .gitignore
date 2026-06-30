@@ -1,0 +1,9 @@
+# Ignore logs and pcap files
+*.pcap
+/logs/
+
+# Ignore Docker-related secrets if any
+.env
+
+# Ignore OS specific files
+.DS_Store
